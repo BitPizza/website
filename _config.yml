@@ -37,8 +37,8 @@ google_analytics: UA-104484034-1
 
 # Your website URL
 # Used for Sitemap.xml and your RSS feed
-# url: https://bitkey.app
-url: http://172.16.0.163:8080
+url: https://bitkey.app
+# url: http://172.16.0.163:8080
 
 
 
