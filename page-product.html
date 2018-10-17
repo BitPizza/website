@@ -1,0 +1,33 @@
+---
+---
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<!-- <body id="top" class="scrollspy" bgcolor="#263238"> -->
+
+<body id="top" class="scrollspy" bgcolor="#263238">
+
+    {% include loader.html %}
+
+    {% include nav.html %}
+
+    {% include product.html %}
+
+    {% include footer.html %}
+    <!--  Scripts-->
+    <script src="{{ site.url }}/js/plugin.js"></script>
+    <script src="{{ site.url }}/js/theme.js"></script>
+    <script src="{{ site.url }}/js/owl.carousel.min.js"></script>
+    <script src="{{ site.url }}/js/typed.min.js"></script>
+    <script src="{{ site.url }}/js/custom.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+          var test = document.getElementById("PRODUCT");
+          test.style["color"] = "#FFF";
+      });
+	</script>
+</body>
+</html>

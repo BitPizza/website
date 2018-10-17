@@ -1,0 +1,37 @@
+---
+---
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<!-- <body id="top" class="scrollspy" bgcolor="#c33000"> -->
+
+<body id="top" class="scrollspy" bgcolor="#263238">
+
+    {% include loader.html %}
+    {% include nav.html %}
+    {% include services.html %}
+    {% include services-multisig.html %}
+    {% include services-world-wide.html %}
+    {% include services-appstore.html %}
+    {% include footer.html %}
+
+    <!--  Scripts-->
+    <script src="{{ site.url }}/js/plugin.js"></script>
+    <script src="{{ site.url }}/js/theme.js"></script>
+    <script src="{{ site.url }}/js/owl.carousel.min.js"></script>
+    <script src="{{ site.url }}/js/typed.min.js"></script>
+    <script src="{{ site.url }}/js/custom.js"></script>
+
+    <script>
+	  document.addEventListener('DOMContentLoaded', function(){
+          var test = document.getElementById("HOME");
+          test.style["color"] = "#FFF";
+      });
+      
+	</script>
+
+</body>
+
+</html>

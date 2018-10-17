@@ -1,0 +1,36 @@
+---
+---
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<!-- <body id="top" class="scrollspy" bgcolor="#c33000"> -->
+
+<body id="top" class="scrollspy" bgcolor="#263238">
+
+    {% include loader.html %}
+
+    {% include nav.html %}
+
+    
+    {% include about-us.html %}
+    {% include footer.html %}
+
+    <!--  Scripts-->
+    <script src="{{ site.url }}/js/plugin.js"></script>
+    <script src="{{ site.url }}/js/theme.js"></script>
+    <script src="{{ site.url }}/js/owl.carousel.min.js"></script>
+    <script src="{{ site.url }}/js/typed.min.js"></script>
+    <script src="{{ site.url }}/js/custom.js"></script>
+
+    <script>
+	  document.addEventListener('DOMContentLoaded', function(){
+          var test = document.getElementById("ABOUT-US");
+          test.style["color"] = "#FFF";
+      });
+	</script>
+
+</body>
+
+</html>
